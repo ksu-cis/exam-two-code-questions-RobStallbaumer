@@ -10,7 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using ExamTwoCodeQuestions.Data;
 namespace ExamTwoQuestions.PointOfSale
 {
     /// <summary>
@@ -21,6 +21,11 @@ namespace ExamTwoQuestions.PointOfSale
         public CustomizeCobblerControl()
         {
             InitializeComponent();
+        }
+
+        private void myFillingBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
